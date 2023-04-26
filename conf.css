@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarala', sans-serif;
+}
+
+:root {
+    --clr: #222327;
+}
+
+body { display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background: var(--clr);
+
+}
+
+.navegador {
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navegador ul {
+    display: flex;
+    width: 350px;
+}
+
+.navegador ul li {
+    position: relative;
+    list-style: none;
+}
